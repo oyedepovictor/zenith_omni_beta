@@ -1,0 +1,57 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5F1"/>
+      <stop offset="100%" stop-color="#F7F8FA"/>
+    </linearGradient>
+    <linearGradient id="mountainGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2A8C73"/>
+      <stop offset="100%" stop-color="#1B5E4F"/>
+    </linearGradient>
+    <linearGradient id="mountainGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B5E4F"/>
+      <stop offset="100%" stop-color="#0F3D33"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="24" fill="url(#skyGrad1)"/>
+
+  <!-- Sun/moon glow -->
+  <circle cx="300" cy="90" r="45" fill="#7C5CFC" opacity="0.12"/>
+  <circle cx="300" cy="90" r="28" fill="#7C5CFC" opacity="0.25"/>
+
+  <!-- Birds -->
+  <path d="M60 80 Q66 74 72 80 Q78 74 84 80" stroke="#1B5E4F" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M90 60 Q95 55 100 60 Q105 55 110 60" stroke="#1B5E4F" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Back mountains -->
+  <path d="M0 280 L90 180 L160 250 L230 170 L320 270 L400 220 L400 400 L0 400 Z" fill="url(#mountainGrad2)" opacity="0.85"/>
+  <!-- Front mountain -->
+  <path d="M0 320 L120 200 L210 300 L280 230 L400 320 L400 400 L0 400 Z" fill="url(#mountainGrad1)"/>
+
+  <!-- Snow caps -->
+  <path d="M120 200 L140 222 L100 222 Z" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M280 230 L298 250 L262 250 Z" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Meditating figure silhouette -->
+  <g transform="translate(200 300)">
+    <!-- shadow -->
+    <ellipse cx="0" cy="62" rx="55" ry="10" fill="#0F3D33" opacity="0.15"/>
+    <!-- body -->
+    <path d="M-38 55 Q-42 20 -20 5 Q-10 -2 0 -2 Q10 -2 20 5 Q42 20 38 55 Z" fill="#0F3D33"/>
+    <!-- head -->
+    <circle cx="0" cy="-18" r="16" fill="#0F3D33"/>
+    <!-- knees -->
+    <path d="M-38 55 Q-50 50 -55 38 Q-50 45 -38 48 Z" fill="#0F3D33"/>
+    <path d="M38 55 Q50 50 55 38 Q50 45 38 48 Z" fill="#0F3D33"/>
+    <!-- glow ring around figure -->
+    <circle cx="0" cy="20" r="70" fill="none" stroke="#7C5CFC" stroke-width="2" opacity="0.3" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- Floating leaves / sparkle accents -->
+  <circle cx="80" cy="320" r="4" fill="#7C5CFC" opacity="0.5"/>
+  <circle cx="330" cy="340" r="5" fill="#2ECC71" opacity="0.6"/>
+  <circle cx="60" cy="250" r="3" fill="#4FA8E0" opacity="0.5"/>
+  <circle cx="340" cy="180" r="3" fill="#FFFFFF" opacity="0.8"/>
+</svg>

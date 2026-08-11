@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6FC3F0"/>
+      <stop offset="100%" stop-color="#4FA8E0"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#g4)"/>
+  <!-- sun -->
+  <circle cx="50" cy="46" r="16" fill="#FFD166"/>
+  <!-- cloud -->
+  <g fill="#FFFFFF">
+    <ellipse cx="70" cy="72" rx="24" ry="16"/>
+    <ellipse cx="52" cy="76" rx="16" ry="12"/>
+    <ellipse cx="86" cy="76" rx="14" ry="11"/>
+  </g>
+</svg>

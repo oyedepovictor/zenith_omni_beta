@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9B7FFF"/>
+      <stop offset="100%" stop-color="#6645D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#g6)"/>
+  <!-- chat bubble -->
+  <path d="M30 38 Q30 28 40 28 L80 28 Q90 28 90 38 L90 62 Q90 72 80 72 L52 72 L38 86 L40 72 L40 72 Q30 72 30 62 Z" fill="#FFFFFF"/>
+  <circle cx="48" cy="50" r="4.5" fill="#7C5CFC"/>
+  <circle cx="64" cy="50" r="4.5" fill="#7C5CFC"/>
+  <circle cx="80" cy="50" r="4.5" fill="#7C5CFC"/>
+</svg>

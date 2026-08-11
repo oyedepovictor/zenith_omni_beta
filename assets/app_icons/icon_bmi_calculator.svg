@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#37C9A1"/>
+      <stop offset="100%" stop-color="#1B5E4F"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#g3)"/>
+  <!-- calculator body -->
+  <rect x="34" y="26" width="52" height="68" rx="8" fill="#FFFFFF"/>
+  <rect x="42" y="34" width="36" height="14" rx="3" fill="#1B5E4F"/>
+  <g fill="#1B5E4F">
+    <rect x="42" y="56" width="9" height="9" rx="2"/>
+    <rect x="56" y="56" width="9" height="9" rx="2"/>
+    <rect x="70" y="56" width="9" height="9" rx="2"/>
+    <rect x="42" y="70" width="9" height="9" rx="2"/>
+    <rect x="56" y="70" width="9" height="9" rx="2"/>
+    <rect x="70" y="70" width="9" height="9" rx="2"/>
+    <rect x="42" y="84" width="9" height="9" rx="2"/>
+    <rect x="56" y="84" width="23" height="9" rx="2" fill="#7C5CFC"/>
+  </g>
+</svg>
